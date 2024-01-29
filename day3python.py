@@ -59,7 +59,7 @@ print(list3)
 
 print(type(list3))
 
-ListwithoutCommas=[1@1@3]
+ListwithoutCommas=[1@1@3]  ##Can separate elements in list only using ","
 
 len(myFirstList) #Have to use a list variable  to find it's length.
 
