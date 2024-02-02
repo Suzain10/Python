@@ -10,7 +10,7 @@ Original file is located at
 tup = (9,8,7,5,6) #Even if you have only one element in a tuple separate it with a comma,else it will be considered as an integer.
 
 #tup[0] = 8  Doesn't support item assignment.
-#tup1.append("Anna")
+#tup.append("Anna")
 
 print(type(tup),tup)
 
