@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1kr9tMGFLOrEXLf7-7jquDjKvDWr9lT7B
 """
 
-#Dictionary:stores the element using key-value pair where keys are used to access values in dictionary
+#Dictionary:stores the element using key-value pair where keys are used to access values in dictionary,here eelments are stored in curly brackets and separated by a comma.
 
 classmates ={'Tony':' drives fast' , 'Emma':' reads slowly' , 'Lucy':' sits behind me'}
 
@@ -18,6 +18,30 @@ print(classmates['Emma'])
 print(classmates['Lucy'])
 
 for k,v in classmates.items():
+print(k + v)
 
-  print(k+v)
+dic = {13:"Sana",4:"Qurat",7:"Suzain"}
+print(dic[13])
 
+info ={'name':'Carry','age':19 ,'eligible':True}
+print(info)
+
+#Accessing Dictionary Items:
+info ={'name':'Carry','age':19,'eligible':True}
+print(info['name'])
+print(info.get('name')) #Both yield the same result,but depending on the use case you may choose to use either of two.
+
+#Accessing multiple values:
+info ={'Country':'India','Capital':'New Delhi','P.M':'Rahul Gandhi'}
+print(info.keys())
+print(info.values())
+
+for keys in info.keys():
+  print(info[keys])
+
+'''for values in info.values():    #CHECKKK
+  print(info[values])'''
+
+#Accessing key-value pair:
+info = {'Name':'karan','Age':18,'State':'U.P'}
+print(info.items())
