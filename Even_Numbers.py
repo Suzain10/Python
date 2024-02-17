@@ -20,23 +20,3 @@ while num <= 50:
     print(num)
     num += 2
 
-# Using a for loop
-print("Even numbers from 0 to 12 using for loop:")
-step = (2.5)
-print(type(step))
-for i in range(0, 13, step):
-    print(i)
-
-# Using a for loop
-print("Even numbers from 0 to 12 using for loop:")
-for i in range(0, 13, 1.5):
-    print(i)
-
-# Using a for loop
-print("Floating-point numbers from 1.5 to 20.5 using for loop:")
-start = 1.5
-end = 21.0  # We add 0.5 to include 20.5
-step = 0.5
-
-for num in range(int(start), int(end ), int(step)):
-    print(num)
