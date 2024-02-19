@@ -16,3 +16,11 @@ a,b=swap(a,b)
 print("After Swapping: ")
 print("a = ",a)
 print("b = ",b)
+
+#Program to swap two numbers(without using functions):
+a = int(input("Enter a number,a: "))
+b = int(input("Enter a number,b: "))
+a,b = b,a
+print("After swapping:")
+print("a=",a)
+print("b=",b)
