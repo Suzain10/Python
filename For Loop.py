@@ -10,7 +10,7 @@ Original file is located at
 #Loops:To execute a group of statements a certain number of times we use loops.
 #Majorly two types of loops:For and while
 #For loop:
-name = 'Abhishebbb'
+name = 'Abhishebbbbb'
 for i in name:
 
   print(i,end=",")
