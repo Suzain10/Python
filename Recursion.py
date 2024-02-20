@@ -9,8 +9,11 @@ Original file is located at
 
 #Fibonacci Series Using Recursion:
 def fiboo(n):
-  if(n==0 or n==1 or n==2 ):  #checkk
+  if (n==0):  #checkk
+    return 0
+  elif(n==1):
     return 1
+
   else:
    return fiboo(n-1) + fiboo(n-2)
 print(fiboo(9))
@@ -23,3 +26,8 @@ def factorial(n):
     return n * factorial (n-1)
 
 print(factorial(3))
+
+def fiboo(n):
+
+   return fiboo(n-1) + fiboo(n-2)
+print(fiboo(9))
