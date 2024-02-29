@@ -1,0 +1,22 @@
+def double(x):
+    return x+2
+
+double = lambda x: x*2
+print(double(5))
+
+cube = lambda x: x*x*x
+print(cube(5))
+
+avg = lambda x,y,z: (x+y+z)/3
+print(avg(3,4,5))
+
+avg_1 = lambda a,b,c:(a+b+c)/3
+print(avg_1(3,3,6))
+
+def appl(fx,value):
+    return 5 + fx(value)
+print(appl(cube,2))
+
+print(appl(lambda x :x*x*x,2))
+
+
