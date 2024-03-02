@@ -1,0 +1,9 @@
+with open('filenew','r') as f:
+    f.seek(11)
+    print(f.tell())
+    data = f.read(3)
+    print(data)
+
+
+
+
