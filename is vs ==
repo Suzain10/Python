@@ -1,0 +1,24 @@
+a = 3
+b = 3 
+print( a is b) #points to the location
+print( a == b) # points to the value
+
+a = None
+b = None
+print(a is None)
+print(b == a)
+
+a =[1,2,4]
+b =[1,2,4]
+print(a is b)
+print(a == b)
+
+a = (1,2)
+b = (1,2)
+print(a is b)
+print(a == b)
+
+a = "3"
+b = 3
+print(a is b)
+print(a == b)
