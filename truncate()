@@ -1,0 +1,5 @@
+with open('new_file','w') as f:
+    f.write('Hello World!!')
+    f.truncate(7)
+with open('new_file','r') as f:
+    print(f.read())
