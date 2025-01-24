@@ -133,6 +133,7 @@ for i in name:
 for i in name:
   print(i)
 
+<<<<<<< HEAD
 """**String Methods:**
 The strip() method in Python does not limit its operation to only the exact characters at the ends of the string.
 Instead, it works by removing all occurrences of any character specified in its argument from the start and end of the string.
@@ -165,3 +166,5 @@ print(str_2)
 str_2 = str_1.lower()
 print(str_2)
 
+=======
+>>>>>>> 67aa4c9dc51334eda924fc3ccb3ea01cfc3bec1f
