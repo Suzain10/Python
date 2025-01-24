@@ -65,3 +65,71 @@ print("The sum of a and b is:",a+b)
 name = input("Enter your name: ")
 print("Hello ", name  + "! :)")
 
+"""**Strings**: A string is a sequence of characters enclosed within single quotes (' '), double quotes (" "), or triple quotes (''' ''' or ''' ''').
+
+*Immutable:* Once a string is created, its content cannot be changed.
+
+
+*Ordered:* Strings maintain the order of characters, so indexing and slicing are possible.
+"""
+
+print("\"The Sun is awake so I am awake!\"\n", "\"Do you wanna build a Snowman?\"")
+
+frozen = """Do you wanna build a snowman
+
+Or ride our bikes around the halls?
+
+I think some company is overdue, I've started talking to
+
+The pictures on the walls
+
+Hang in there, Joan
+
+It gets a little lonely, all these empty rooms
+
+Just watching the hours tick by
+
+(tick, tock, tick, tock, tick, tock, tick, tock)
+
+Elsa?
+
+Please, I know you're in there
+
+People are asking where you've been
+
+\"They say have courage and I'm trying to
+
+I'm right out here for you
+
+Just let me in
+
+We only have each other, it's just you and me\"
+
+What are we gonna do?
+
+\"Do you wanna build a snowman?\""""
+print(frozen)
+
+nm = """Harry"""
+print(nm[-4:-2])
+print(len(nm))
+
+name = input("Enter your name: ")
+count = (len(name))
+print("Your name has \"",count,"\" characters.")
+
+char_count = name[0:5]
+print(char_count)
+
+char_count = name[:9]
+print(char_count)
+
+char_count = name[:] #By default takes values from 0 to len of string
+print(char_count)
+
+for i in name:
+  print(name)
+
+for i in name:
+  print(i)
+
