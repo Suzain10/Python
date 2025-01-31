@@ -30,7 +30,7 @@ elif 12 >= hour <16:
   time.sleep(2)
   print("Afternoons are the pause between morning’s hustle and evening’s calm —a time to reflect, recharge, and smile.")
 
-elif 16 > hour <=19:
+elif 16 >= hour <=19:
   print("Good Evening!")
   time.sleep(2)
   print("As the evening sky fades into night, may your heart be filled with peace and your mind with gratitude.")
